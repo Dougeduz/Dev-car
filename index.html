@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Car</title>
+</head>
+<body>
+    <header>
+        <img src="./imagens/logo.png" alt="Logo Dev Car">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Carros</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="list">
+            
+            <!-- Item 1 -->
+            <article class="item active">
+                <div class="car-img">
+                    <img src="./imagens/1.png" alt="Porsche 911 Turbo">
+                </div>
+                
+                <div class="content">
+                    <p class="car-information">Único Dono</p>
+                    <h2>911 Turbo</h2>                    
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ea harum, accusamus nulla consectetur quo.
+                    </p>
+                    <button class="information">Saiba Mais</button>                    
+                </div>
+
+                <div class="logo_bg">
+                    <img src="/imagens/porsche_2-removebg-preview.png" alt="">
+                </div>
+                
+            </article>
+
+            <!-- Item 2 -->
+            <article class="item">
+                <div class="car-img">
+                    <img src="./imagens/2.png" alt="Ferrari Conversível">
+                </div>
+                <div class="content">
+                    <p class="car-information">Conversível</p>
+                    <h2>Ferrari</h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ea harum, accusamus nulla consectetur quo.
+                    </p>
+                    <button class="information">Saiba Mais</button>
+                </div>
+
+                <div class="logo_bg">
+                    <img src="/imagens/ferrari2-removebg-preview.png" alt="">
+                </div>
+            </article>
+
+            <!-- Item 3 -->
+            <article class="item">                
+                <div class="car-img">
+                    <img src="./imagens/3.png" alt="Lamborghini 2015">
+                </div>
+                <div class="content">
+                    <p class="car-information">2015</p>
+                    <h2>Lamborghini</h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ea harum, accusamus nulla consectetur quo.
+                    </p>
+                    <button class="information">Saiba Mais</button>
+                </div>
+
+                <div class="logo_bg">
+                    <img src="/imagens/lambo-removebg-preview.png" alt="">
+                </div>
+            </article>
+
+
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><img src="./imagens/arrow.png" alt="Seta Esquerda"></button>
+            <button id="next"><img src="./imagens/arrow.png" alt="Seta Direita"></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
